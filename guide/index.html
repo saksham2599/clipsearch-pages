@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipSearch for Mac: Features &amp; User Guide</title>
+<meta name="description" content="Learn how to use ClipSearch, the local-first Mac clipboard manager. Search history, organize collections, copy file paths, protect private clips, export backups, and enable encrypted iCloud sync.">
+<link rel="canonical" href="https://saksham2599.github.io/clipsearch-pages/guide/">
+<meta property="og:title" content="ClipSearch for Mac: Features &amp; User Guide">
+<meta property="og:description" content="Your guide to searchable clipboard history, collections, backups, privacy, and optional encrypted iCloud sync.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://saksham2599.github.io/clipsearch-pages/guide/">
+<meta property="og:image" content="https://saksham2599.github.io/clipsearch-pages/guide/library.jpg">
+<link rel="icon" href="../icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="./guide.css">
+<script src="./guide.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="nav"><a class="brand" href="../"><img src="../icon.png" alt="" width="40" height="40">ClipSearch</a><nav aria-label="Main"><a href="./" aria-current="page">Guide</a><a href="../">Support</a><a href="../privacy/">Privacy</a></nav></div></header>
+<main id="main">
+<p class="eyebrow">MACOS 14 OR LATER · USER GUIDE</p>
+<h1>ClipSearch for Mac</h1>
+<p class="lead">Find something you copied. Put it back to work.</p>
+<p>ClipSearch keeps a searchable clipboard history in your Mac's menu bar, with a Library for organizing longer-lived work. Local history is free; Pro adds unlimited organization and optional encrypted iCloud sync.</p>
+<p class="date">Updated September 9, 2026 · Version 1.1.2. Some fixes described below require the latest build.</p>
+<div class="guide-search"><label for="guide-search">Find a topic</label><input id="guide-search" type="search" placeholder="Try collections, file paths, or sync" autocomplete="off"><p id="search-status" role="status" aria-live="polite"></p></div>
+<nav class="contents" aria-label="Guide topics">
+<a href="#start">Get started</a><a href="#search">Find clips</a><a href="#organize">Organize</a><a href="#library">Library &amp; batch actions</a><a href="#reuse">Snippets &amp; queue</a><a href="#media">Images &amp; files</a><a href="#privacy">Privacy controls</a><a href="#storage">Storage &amp; recovery</a><a href="#migration">Export &amp; import</a><a href="#cloud">iCloud sync</a><a href="#pro">Free &amp; Pro</a><a href="#shortcuts">Shortcuts</a><a href="#help">Troubleshooting</a>
+</nav>
+<section id="start" data-topic>
+<h2>Start with one copied sentence</h2>
+<ol><li>Launch ClipSearch. Look for its clipboard icon in the macOS menu bar, not a permanent main window.</li><li>In TextEdit or another app, copy a harmless sentence with <kbd>Command-C</kbd>.</li><li>Click the ClipSearch menu-bar icon, or press the default <kbd>Command-Shift-V</kbd> shortcut.</li><li>Click the clip to put it on the system clipboard. Return to the destination app and press <kbd>Command-V</kbd>.</li></ol>
+<p>Selecting a history clip copies it; it does not automatically type into another app. Use the History, Pinned, Snippets, and Queue sections to switch workflows.</p>
+<h3>Make it comfortable</h3>
+<p>Open Preferences using the gear icon. Under Appearance, choose <strong>Compact</strong> for one-line rows or <strong>Verbose</strong> for metadata and actions. Hover a clip for its preview and an action icon for its description. Choose up to three hover actions under Verbose Row Shortcuts.</p>
+<p>Enable Launch ClipSearch at login for everyday use. You can change or disable the global shortcut. Remember last search controls whether reopening the panel keeps your previous query.</p>
+</section>
+<section id="search" data-topic>
+<h2>Find the right clip</h2>
+<p>Search the original content, custom titles, tags, and file paths. Results are ranked for relevance, with a short typing delay to keep input responsive. Clear the query to return to recent history. The content filter narrows History to All, Text, Images, or Files.</p>
+<div class="table-scroll"><table><caption>Search examples</caption><thead><tr><th>Search</th><th>What it finds</th></tr></thead><tbody>
+<tr><td><code>invoice</code></td><td>Clips matching the word in searchable text or metadata.</td></tr>
+<tr><td><code>tag:work</code></td><td>Clips tagged work.</td></tr>
+<tr><td><code>app:Safari</code></td><td>Clips matching Safari as the recorded source application.</td></tr>
+<tr><td><code>type:image</code></td><td>Image clips. Use <code>type:file</code> for file references.</td></tr>
+<tr><td><code>is:pinned</code></td><td>Pinned clips.</td></tr>
+<tr><td><code>collection:"Project Notes"</code></td><td>Clips assigned to that collection.</td></tr>
+<tr><td><code>before:2026-09-01</code></td><td>Clips copied before September 1, 2026.</td></tr>
+<tr><td><code>after:2026-09-01</code></td><td>Clips copied on or after September 1, 2026.</td></tr>
+<tr><td><code>tag:work invoice</code></td><td>A text search narrowed to work-tagged clips.</td></tr>
+</tbody></table></div>
+<p>Use dates in <code>YYYY-MM-DD</code> format. A source-app filter depends on the source information captured with a clip.</p>
+</section>
+<section id="organize" data-topic>
+<h2>Pins, titles, tags, and collections</h2>
+<h3>Keep a clip close</h3>
+<p>Open a clip's action menu and choose Pin. Find it again in Pinned. Choose Edit title and tags to give it a recognizable label and searchable tags; this changes its metadata, not the original clipboard text.</p>
+<h3>Create a collection</h3>
+<ol><li>Open Library from the menu-bar panel.</li><li>Choose New Collection in the sidebar, enter a name, and create it.</li><li>In All Clips, select the clips you want. Use the folder-plus toolbar menu and choose your collection.</li><li>Click the collection in the sidebar to see its members.</li></ol>
+<p>Collections organize references to clips; they are not copies of your files.</p>
+<h3>Save a search as a smart collection</h3>
+<p>Search in Library, for example <code>tag:work</code>. Click the bookmark toolbar button, name the search, and save it. It appears under Smart Collections. Opening it reruns the saved query so matching clips can change over time.</p>
+</section>
+<section id="library" data-topic>
+<h2>The Library: work with more than one clip</h2>
+<figure><a href="./library.jpg"><img src="./library.jpg" alt="ClipSearch Library showing collections in the sidebar, sample clipboard rows, and a selected clip's text, source, and tags in the inspector." width="2560" height="1600" loading="lazy"></a><figcaption>The Library with sample content. Open the image to inspect it at full size.</figcaption></figure>
+<p>The sidebar separates All Clips, Images, Files, Pinned, Recently Deleted, Collections, and Smart Collections. Selecting one clip shows its contents and metadata in the inspector; unlike the menu-bar panel, selection here does not immediately copy it.</p>
+<ol><li>Command-click to select individual rows, or Shift-click to select a range.</li><li>Use the toolbar to add to a collection, tag, pin, add to the queue, export, or move the selection to Recently Deleted.</li><li>Open Recently Deleted to restore a clip you removed by mistake.</li></ol>
+<p class="notice"><strong>Latest-build behavior:</strong> Command-D and right-click &gt; Move to Recently Deleted apply to the full selection in the updated Library. If your build deletes only the clicked row, use the toolbar trash button and update when a newer build is available.</p>
+</section>
+<section id="reuse" data-topic>
+<h2>Snippets, paste queue, and text tools</h2>
+<h3>Save reusable text</h3>
+<p>Open a text clip's action menu and choose Save as Snippet. Give it a name, review the content and tags, and save. In Snippets, select it to copy its saved text, then paste with Command-V. Snippets are reusable text, not automatic text-expansion triggers.</p>
+<h3>Prepare a sequence</h3>
+<p>Add clips with Add to Paste Queue. Open Queue and choose Paste Next to place the next clip on the system clipboard and remove its queue entry. Switch to the target app and press Command-V, then repeat. Queue actions do not automatically fill fields in other apps.</p>
+<h3>Transform without changing the original</h3>
+<p>Use Copy transformed text for uppercase, lowercase, trimmed text, formatted JSON, or compact JSON. JSON formatting needs valid JSON input. For detected color values, use the available HEX, RGB, or HSL copy actions. Supported rich-text clips preserve their formatting when restored.</p>
+</section>
+<section id="media" data-topic>
+<h2>Images, files, and folders</h2>
+<h3>A small, configurable image history</h3>
+<p>Copy an image to capture its supported image representation. Use the Images filter or the Library Images section to find thumbnails and previews. Image history defaults to the latest 10 images; Preferences &gt; Retention lets you choose 0 to 100. Zero disables image storage.</p>
+<p>Image originals and thumbnails are stored locally as separate media files, not inside the SQLite database. There is a 20 MB per-image limit and a 500 MB total image-storage guard. Retaining an image in clipboard history is not a substitute for saving the original.</p>
+<h3>File references, not duplicate files</h3>
+<p>Copy a file or folder in Finder to capture a reference. ClipSearch stores its path and access reference, not the complete file or folder contents.</p>
+<ul><li><strong>Click a file/folder row in the menu-bar panel:</strong> copy its full path as plain text, in both Compact and Verbose modes.</li><li><strong>Copy File Path / Copy File Name:</strong> choose the full path or only its name. Multiple paths are separated by newlines.</li><li><strong>Reveal in Finder:</strong> locate the original item. Library also offers an Open action.</li><li><strong>Copy File Reference:</strong> explicitly restore the file reference for a destination that accepts files, rather than text.</li></ul>
+<p>If an original was moved, deleted, or is inaccessible on another Mac, opening or restoring its file reference may fail. Copying its stored path as text can still work. Import and sync do not transfer the original files or their access permissions.</p>
+</section>
+<section id="privacy" data-topic>
+<h2>Control what gets captured</h2>
+<p>Local history works without a ClipSearch account. Cloud sync is off until you choose to enable it.</p>
+<ul><li><strong>Pause / Private Mode:</strong> pause from the menu-bar panel or Preferences. Choose a timer or remain private until manually resumed. New captures are rejected before storage; existing history stays intact.</li><li><strong>Excluded Apps:</strong> in Preferences, add an application using the app picker or its bundle identifier. Clips captured while that application is the source are excluded.</li><li><strong>Sensitive text:</strong> optionally block detected passwords, one-time codes, payment cards, and private keys. Detection runs on your Mac and can miss secrets; pause capture before handling highly sensitive material.</li></ul>
+<p class="notice">The local database is not encrypted by ClipSearch itself. It relies on your macOS account and disk protection such as FileVault. Optional cloud copies are encrypted separately with a key kept in iCloud Keychain. Read the <a href="../privacy/">privacy policy</a> for the full data handling details.</p>
+</section>
+<section id="storage" data-topic>
+<h2>Retention, storage, and recovery</h2>
+<p>Text history has no default count or age limit. In Preferences &gt; Retention, set a maximum clip count or age. These limits move eligible clips into Recently Deleted. Configure the recovery period and restore needed items before permanent removal.</p>
+<p><strong>A disk budget is different:</strong> the live-storage budget permanently removes deleted clips first, then older unpinned clips, and reclaims database space. Pinned clips are exempt, so this is not a strict cap on every byte the app uses. Backups and exports are separate copies.</p>
+<p>The Storage Dashboard shows database and media usage, clip counts, exclusions, backup information, and the last export status.</p>
+<h3>Use verified local backups</h3>
+<ol><li>Open Preferences &gt; Database Backups.</li><li>Create a manual backup, or choose daily/weekly backups and a retention count.</li><li>To recover a previous state, choose Restore beside a verified backup and confirm.</li></ol>
+<p>Backup restore replaces the active database after creating a safety backup. It does not merge histories. Use export/import for merging or migration. Local backups are on the same Mac; keep an independent export somewhere safe for device loss.</p>
+</section>
+<section id="migration" data-topic>
+<h2>Export, import, and move to another Mac</h2>
+<ol><li>Choose Export history from the menu-bar panel. Select an available scope: all history, pinned clips, a collection, or snippets. For selected clips, use Library's export toolbar button.</li><li>Review the item count and estimated size in the save dialog. Save the <code>.clipsearch</code> archive to your chosen location.</li><li>Transfer the complete archive securely. It can be a package containing multiple files; do not transfer only its manifest or Assets folder.</li><li>On the receiving Mac, choose Import history, select the archive, and import.</li></ol>
+<p>Import merges with the receiving Mac's history instead of replacing it and avoids duplicates by content fingerprint. Supported archives preserve clip content, image payloads, titles, tags, pins, collections, saved searches, snippets, and queue references. New exports include checksums verified during import.</p>
+<p class="notice">Treat exports as sensitive data. They are not password-protected encrypted archives. File references do not include original file contents. Deleting local history does not erase previously exported or backed-up copies. Arbitrary exports from other clipboard managers are not guaranteed to be compatible.</p>
+</section>
+<section id="cloud" data-topic>
+<h2>Optional encrypted iCloud sync <span class="pro-label">Pro</span></h2>
+<p>Sync is for ClipSearch installs signed into the same Apple Account. It is not a public sharing service.</p>
+<ol><li>Install a cloud-enabled signed build on each Mac and activate Pro.</li><li>Sign into the same Apple Account and enable iCloud Passwords &amp; Keychain on both Macs.</li><li>Open Preferences &gt; iCloud Sync, choose Enable iCloud Sync, read the confirmation, and choose Enable and Sync.</li><li>ClipSearch creates a verified local safety backup before the initial sync. Check status and use Sync Now when needed.</li></ol>
+<p>Supported clip data and organization changes merge across devices, including supported deletions. File permissions, app exclusions, device settings, and local backups do not sync.</p>
+<p>Disabling sync or losing Pro stops future transfers and preserves local history. It does not erase the existing cloud copy. If sync is waiting for its encryption key, allow iCloud Keychain to finish syncing; do not reset Keychain or delete cloud data as a first troubleshooting step.</p>
+<p>A message that sync is prepared but unavailable usually means the installed build does not include the required signed CloudKit configuration. Local Debug builds can intentionally disable cloud. Use the cloud-enabled TestFlight or distribution build instead.</p>
+</section>
+<section id="pro" data-topic>
+<h2>What is free, and what does Pro add?</h2>
+<div class="table-scroll"><table><caption>Plan comparison</caption><thead><tr><th>Feature</th><th>Free</th><th>Pro</th></tr></thead><tbody>
+<tr><td>Local clipboard history and search</td><td>Included</td><td>Included</td></tr>
+<tr><td>Pins, tags, Library, local export and backups</td><td>Included</td><td>Included</td></tr>
+<tr><td>Collections</td><td>3</td><td>Unlimited</td></tr>
+<tr><td>Saved searches / smart collections</td><td>3</td><td>Unlimited</td></tr>
+<tr><td>Snippets</td><td>10</td><td>Unlimited</td></tr>
+<tr><td>Encrypted iCloud sync</td><td>Not included</td><td>Optional opt-in</td></tr>
+</tbody></table></div>
+<p>Pro is offered as a monthly or annual auto-renewing subscription, not a lifetime purchase. Open Preferences &gt; ClipSearch Pro to view the current localized prices and terms before purchasing. Prices shown by the App Store are authoritative for your country.</p>
+<p>Use Restore Purchases with the purchasing Apple Account. Manage renewal through the subscription-management option or <a href="https://apps.apple.com/account/subscriptions">Apple's subscription settings</a>. Existing local content remains accessible when Pro expires; creation beyond free limits and cloud sync require Pro.</p>
+<p>Small and Medium tips are optional one-time App Store purchases. They do not unlock features and are not subscriptions. The available fixed amounts appear in your storefront's currency; there is no editable custom tip amount.</p>
+</section>
+<section id="shortcuts" data-topic>
+<h2>Keyboard reference</h2>
+<div class="table-scroll"><table><caption>Shortcuts and where they apply</caption><thead><tr><th>Shortcut</th><th>Action</th></tr></thead><tbody>
+<tr><td><kbd>Command-Shift-V</kbd></td><td>Open the menu-bar panel globally by default; configurable in Preferences.</td></tr>
+<tr><td><kbd>Up / Down</kbd></td><td>Move between results in the menu-bar panel.</td></tr>
+<tr><td><kbd>Return</kbd></td><td>Copy the selected result from the panel.</td></tr>
+<tr><td><kbd>Command-1</kbd> through <kbd>Command-9</kbd></td><td>Choose the corresponding visible result when its numbered shortcut is shown in the open panel.</td></tr>
+<tr><td><kbd>Command-click</kbd> / <kbd>Shift-click</kbd></td><td>Select individual clips / a range in Library.</td></tr>
+<tr><td><kbd>Command-D</kbd></td><td>Move the Library selection to Recently Deleted in the latest updated build.</td></tr>
+<tr><td><kbd>Command-V</kbd></td><td>Paste the restored clipboard content in the destination app.</td></tr>
+</tbody></table></div>
+</section>
+<section id="help" data-topic>
+<h2>When something does not work</h2>
+<h3>A copied item is missing</h3><p>Check capture pause, Private Mode, excluded apps, sensitive-text protection, and the active search/filter. For images, check the image-history limit. Test using harmless plain text in TextEdit.</p>
+<h3>A file pastes as text instead of a file</h3><p>That is the default for file/folder row clicks in the panel. Use Copy File Reference when the destination expects an actual file reference.</p>
+<h3>The import archive is greyed out, or export fails in Downloads</h3><p>Use a recent build containing the import-picker and sandbox-export fixes. Select the complete <code>.clipsearch</code> package. Confirm the destination is writable and has enough free space; do not dismantle or edit the archive.</p>
+<h3>I cannot see the latest behavior</h3><p>Quit other ClipSearch instances, especially a local development copy, and launch the intended installed version. Local and TestFlight copies can have different fixes and cloud capabilities.</p>
+<p>Still stuck? Visit <a href="../">Support</a> or email <a href="mailto:anitagoyaldev@gmail.com?subject=ClipSearch%20Help">anitagoyaldev@gmail.com</a> with your macOS version, app version/build, and reproduction steps. Do not send unredacted clipboard history or secrets.</p>
+</section>
+<p id="empty-search" hidden>No matching topics. Try a shorter phrase or clear the search.</p>
+</main>
+<footer><div><span>Copyright 2026 Saksham Goyal</span><a href="../">Support</a><a href="../privacy/">Privacy</a><a href="#main">Back to top</a></div></footer>
+</body>
+</html>
